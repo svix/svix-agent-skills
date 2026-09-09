@@ -14,7 +14,7 @@ This repo is itself an [Agent Plugins](https://agent-plugins.org/) package, with
 | Client | Manifest | Install |
 | --- | --- | --- |
 | [Claude Code](https://code.claude.com/docs/en/plugins) | [`.claude-plugin/`](.claude-plugin/) | `/plugin marketplace add svix/ai` then `/plugin install svix@svix` |
-| [Codex](https://developers.openai.com/codex/plugins) | [`.codex-plugin/plugin.json`](.codex-plugin/plugin.json) | `/plugins` in the Codex CLI, or point a marketplace entry at this repo |
+| [Codex](https://developers.openai.com/codex/plugins) | [`.codex-plugin/plugin.json`](.codex-plugin/plugin.json) | `codex plugin marketplace add svix/ai` then `codex plugin add svix@svix`, or `/plugins` in the Codex CLI |
 | Any [Agent Plugins](https://agent-plugins.org/) client | [`plugin.json`](plugin.json) | point the client at a clone of the repo |
 
 ## Skills
